@@ -6,6 +6,10 @@
         {
             "name": "Wouter de Jong",
             "email": "wouter@wouterj.nl"
+        },
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
         }
     ],
 
@@ -14,9 +18,9 @@
     },
 
     "autoload": {
-        "psr-4": { "WouterJ\\Peg\\": "src/" }
+        "psr-4": { "Puleeno\\Peg\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "WouterJ\\Peg\\": "tests/" }
+        "psr-4": { "Puleeno\\Peg\\": "tests/" }
     }
 }
