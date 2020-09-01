@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace WouterJ\Peg;
+namespace Puleeno\Peg;
 
-use WouterJ\Peg\Exception\DefinitionException;
+use Puleeno\Peg\Exception\DefinitionException;
 
 /**
  * @author Wouter de Jong <wouter@wouterj.nl>
@@ -188,7 +188,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \WouterJ\Peg\Exception\DefinitionException
+     * @expectedException \Puleeno\Peg\Exception\DefinitionException
      * @expectedExceptionMessage did you mean one of these `Everything`?
      */
     public function testUnknownDefinition()
@@ -202,7 +202,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \WouterJ\Peg\Exception\DefinitionException
+     * @expectedException \Puleeno\Peg\Exception\DefinitionException
      * @expectedExceptionMessageRegExp /^Invalid definition `Foo`: Undefined operator `undefined`\./
      */
     public function testInvalidDefinition()
