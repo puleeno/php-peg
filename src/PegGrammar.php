@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WouterJ\Peg;
+namespace Puleeno\Peg;
 
 /**
  * A subclass of Grammar for the PEG syntax.

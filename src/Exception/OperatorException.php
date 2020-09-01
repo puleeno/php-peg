@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace WouterJ\Peg\Exception;
+namespace Puleeno\Peg\Exception;
 
-use WouterJ\Peg\Exception;
+use Puleeno\Peg\Exception;
 
 /**
  * @author Wouter de Jong <wouter@wouterj.nl>

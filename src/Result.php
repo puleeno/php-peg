@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WouterJ\Peg;
+namespace Puleeno\Peg;
 
 /**
  * This class is returned from all parse* methods in the Parser.

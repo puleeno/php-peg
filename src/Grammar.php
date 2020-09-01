@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WouterJ\Peg;
+namespace Puleeno\Peg;
 
 /**
  * The main entry point of the Peg library.

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WouterJ\Peg;
+namespace Puleeno\Peg;
 
-use WouterJ\Peg\Exception\DefinitionException;
-use WouterJ\Peg\Exception\OperatorException;
+use Puleeno\Peg\Exception\DefinitionException;
+use Puleeno\Peg\Exception\OperatorException;
 
 /**
  * The parser of input strings.
