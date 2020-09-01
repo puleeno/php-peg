@@ -20,8 +20,8 @@ Use the `Grammar` class to specify the Parsing Expression Grammar by creating
 `Definition` instances:
 
 ```php
-use WouterJ\Peg\Grammar;
-use WouterJ\Peg\Definition;
+use Puleeno\Peg\Grammar;
+use Puleeno\Peg\Definition;
 
 // specifies that Float is the main definition
 $grammar = new Grammar('Float', [
@@ -61,7 +61,7 @@ comes with `PegGrammar`, a parser that is able to parse PEG syntax. It returns
 a ready to use grammar instance using the parsed grammar.
 
 ```php
-use WouterJ\Peg\PegGrammar;
+use Puleeno\Peg\PegGrammar;
 
 $pegGrammar = new PegGrammar();
 
@@ -91,4 +91,4 @@ Contributing
 ------------
 
 Whether it's just a reference, online high-five, bug report or feature proposal,
-all contributions are welcome. The main project is located at [GitHub](http://github.com/wouterj/peg).
+all contributions are welcome. The main project is located at [GitHub](http://github.com/puleeno/php-peg).
