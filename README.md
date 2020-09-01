@@ -10,7 +10,7 @@ Installation
 Install PEG using [Composer](https://getcomposer.org/download/):
 
 ```bash
-$ composer require wouterj/peg
+$ composer require puleeno/peg
 ```
 
 Usage
